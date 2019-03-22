@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-menu h1 {
+    font-size: 7em;
+    color: #fff;
+    text-align: center;
+}
+
+#content h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}
+
+a {
+    background-color: rgb(86, 161, 190);
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.4em;
+}
+
+li > a {
+    background-color: rgb(86, 161, 190);
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+li > a:hover {
+    background-color: rgb(25, 80, 104);
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+.main-menu > a {
+    background-color: rgb(86, 161, 190);
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 2em;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.main-menu > a:hover {
+    background-color: rgb(25, 80, 104);
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 2em;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.login-box {
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+}
+
+.login-left {
+    background: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+}
+
+.login-right {
+    background: rgba(91, 163, 154, 0.5);
+    padding: 30px;
+}
+
+.form-group {
+    padding-bottom: 20px;
+}
+
+.form-group > label {
+    padding-right: 20px;
+}
+
+.login-box h2 {
+    font-size: 2.2em;
+    color: #fff;
+}

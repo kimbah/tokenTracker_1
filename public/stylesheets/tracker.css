@@ -1,0 +1,226 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 980px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-color: rgb(86, 161, 190);
+    color: white;
+    padding: 2px 2px;
+    text-decoration: none !important;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 1.4em;
+}
+
+a:hover {
+    background-color: rgb(25, 80, 104);
+    color: white;
+    padding: 2px 2px;
+    text-decoration: none !important;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 1.4em;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 40px 0;
+    padding: 0;
+    background: #5b5dcc;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    padding: 5px;
+    font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    margin-left: 280px;
+}
+
+#content p {
+    font-size: 2.4em;
+    color: rgb(243, 2, 2);
+    margin: 30px 0 30px;
+    text-align: center;
+}
+
+#content p:last-of-type {
+    font-size: 2em;
+    color: #FFF;
+    text-align: center;
+}
+
+nav {
+    width: 980px;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    width: 980px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+#main-menu h2 {
+    font-size: 6em;
+    color: #FFF;
+    text-align: center;
+    margin: 100px 0 100px;
+}
+
+#main-menu li {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+#content {
+    width: 920px;
+    min-height: 500px;
+    padding: 0 30px;
+}
+
+#content li a {
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    background: #5b5dcc;
+    color: white;
+}
+
+
+/* Actions */
+
+.actions {
+    margin-bottom: 1em;
+}
+
+
+/* Lists */
+
+table {
+    border-collapse: collapse;
+    vertical-align: top;
+}
+
+table.list {
+    width: 100%;
+}
+
+table.list tr td {
+    border: 1px solid #999999;
+    font-size: 1.4em;
+    color: #FFF;
+}
+
+table.list tr th {
+    border: 1px solid rgb(86, 161, 190);
+    background: rgb(86, 161, 190);
+    color: white;
+    text-align: left;
+}
+
+
+/* Forms */
+
+dl {
+    clear: both;
+    overflow: hidden;
+    margin: 1em 0;
+    color: #FFF;
+}
+
+dt {
+    float: left;
+    font-weight: bold;
+    width: 125px;
+    font-size: 1.5em;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+dd {
+    float: left;
+    margin-left: 1em;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+dd > input {
+    height: 20px;
+    font-size: 0.8em;
+}
+
+#operations {
+    clear: both;
+    margin: 1em 0 1em 75px;
+}
+
+form input[type=submit] {
+    background: rgb(86, 161, 190);
+    font-size: 1.4em;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form input[type=submit]:hover {
+    background: rgb(25, 80, 104);
+    font-size: 1.4em;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+select {
+    font-size: 0.8em;
+}
+
+input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Errors */
+
+.errors {
+    display: inline-block;
+    border: 2px solid red;
+    color: red;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.errors ul {
+    margin-bottom: 0;
+    padding-left: 1em;
+}
